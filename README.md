@@ -58,10 +58,8 @@ One of the challenges I faced was implementing the report and moderation feature
 
 ### 1. Clone the Repository
   git clone https://github.com/ela60/forumapp.git
-- 2. Navigate into the Project Folder
-    cd forumapp
-- 3. Install Dependencies
-     npm install
+  Navigate into the Project Folder: cd forumapp
+ Install Dependencies: npm install
 
 
 
