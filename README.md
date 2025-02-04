@@ -40,9 +40,28 @@ ForumApp is an interactive platform that allows users to share their thoughts, e
 
 ---
 
+## 🛠️ Technologies Used
+- React: For building the frontend.
+- React Router: For navigation.
+- Axios: For API requests.
+- Node.js/Express: Backend server.
+- MongoDB: Database for storing user data and posts.
+- JWT (JSON Web Tokens): For secure user authentication.
+---
+
+## ⚡ Challenges Faced
+One of the challenges I faced was implementing the report and moderation feature for flagged posts/comments. I had to make sure that only admins could manage reported content, while providing a smooth experience for users to report inappropriate content.
+
+
+
 ## 🛠️ Installation Guide
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/forumapp.git
-```
+  git clone https://github.com/ela60/forumapp.git
+- 2. Navigate into the Project Folder
+    cd forumapp
+- 3. Install Dependencies
+     npm install
+
+
+
