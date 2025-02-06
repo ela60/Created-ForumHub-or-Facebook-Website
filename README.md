@@ -1,4 +1,4 @@
-# 🚀 ForumApp
+# 🚀 ForumApp (🔹 An interactive social platform with admin and user dashboards, inspired by Facebook's UI.)
 
 ## 💡 Purpose
 ForumApp is an interactive platform that allows users to share their thoughts, engage in discussions, vote on posts, and comment on topics of interest. Whether you’re passionate about a subject or looking to join the conversation, ForumApp provides a space for community interaction.
@@ -25,6 +25,34 @@ ForumApp is an interactive platform that allows users to share their thoughts, e
   - Maintain a safe and respectful community environment.
 
 ---
+
+🖼️ Features:
+👥 User Dashboard
+✅ User Authentication: Sign up/login using email, Google, or Facebook authentication.
+✅ Profile Management: Edit profile, update cover & profile pictures.
+✅ News Feed: View, like, and comment on posts from other users.
+✅ Media Sharing: Upload images, videos, and GIFs.
+✅ Friend System: Send, accept, and decline friend requests.
+✅ Chat System: Real-time messaging with seen/unseen status.
+✅ Notifications: Get notified about likes, comments, and friend requests.
+✅ Dark/Light Mode: Toggle between light and dark themes.
+✅ Post Privacy Settings: Choose between public, friends, or private visibility.
+
+🛠️ Admin Dashboard
+🔹 User Management: View, edit, delete, or ban users.
+🔹 Content Moderation: Approve, edit, or remove posts violating policies.
+🔹 Analytics Dashboard: Monitor user activity, engagement, and trends.
+🔹 Reports & Complaints: Manage flagged posts and handle user complaints.
+🔹 Ad Management: Insert and track advertisements on the platform.
+🔹 Role-Based Access: Assign different permissions to moderators, admins, or users.
+
+🛑 Security & Performance
+🔒 Secure Authentication using JWT & OAuth.
+🖥️ Scalable Backend with Node.js & Express.js.
+📦 Cloud Storage for media files using Firebase or AWS S3.
+📊 Optimized Database with MongoDB for fast retrieval.
+🚀 Deployed on Vercel/Netlify (Frontend) & Render/VPS (Backend).
+
 
 ## 📦 NPM Packages Used
 
