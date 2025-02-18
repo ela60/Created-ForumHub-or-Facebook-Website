@@ -17,7 +17,7 @@ export default function ErrorPage() {
         {/* Error Message */}
         <h2 className="text-3xl font-bold mt-6">Oops! Page Not Found</h2>
         <p className="text-gray-400 mt-2">
-          The page you are looking for doesn't exist or an error occurred.
+        The page you’re looking for can’t be found.
         </p>
 
         {/* Home Button */}
