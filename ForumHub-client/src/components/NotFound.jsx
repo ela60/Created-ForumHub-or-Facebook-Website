@@ -1,22 +1,33 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const NotFound = () => {
+export default function ErrorPage() {
+  const navigate = useNavigate();
+
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center p-8 bg-white shadow-lg rounded-lg">
-        <h1 className="text-6xl font-bold text-red-500">404</h1>
-        <h2 className="text-3xl font-semibold text-gray-700 mt-2">Oops! Page Not Found</h2>
-        <p className="text-gray-500 mt-4">The page you're looking for might have been moved or doesn't exist anymore.</p>
-        <Link
-          to="/"
-          className="mt-6 inline-block px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
+    <div className="flex flex-col items-center justify-center min-h-screen ">
+      <div className="max-w-lg text-center p-8 rounded-3xl shadow-2xl bg-gray-950 border border-gray-700">
+        {/* Unique 404 Illustration */}
+        <div className="relative w-full">
+          <span className="text-9xl font-extrabold text-gray-600">404</span>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-16 h-16 bg-red-500 rounded-full animate-pulse"></div>
+          </div>
+        </div>
+
+        {/* Error Message */}
+        <h2 className="text-3xl font-bold mt-6">Oops! Page Not Found</h2>
+        <p className="text-gray-400 mt-2">
+          The page you are looking for doesn't exist or an error occurred.
+        </p>
+
+        {/* Home Button */}
+        <button
+          onClick={() => navigate("/")}
+          className="mt-6 px-6 py-3 bg-red-500 text-white rounded-full text-lg font-semibold shadow-md hover:bg-red-600 transition transform hover:scale-105"
         >
-          Go Back to Home
-        </Link>
+          Back to Home
+        </button>
       </div>
     </div>
   );
-};
-
-export default NotFound;
+}
