@@ -75,6 +75,7 @@ const AdminProfile = () => {
         />
         <h3 className="text-xl font-medium">{stats?.name || 'Admin'}</h3>
         <p className="text-gray-600">{stats?.email || 'No email available'}</p>
+       
         <p className="text-gray-600">Users Count: {stats?.usersCount || 0}</p>
         <p className="text-gray-600">Posts Count: {stats?.forumPostsCount || 0}</p>
         <p className="text-gray-600">Comments Count: {stats?.commentsCount || 0}</p>

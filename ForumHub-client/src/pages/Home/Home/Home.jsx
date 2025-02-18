@@ -6,6 +6,7 @@ import AnnouncementSection from '../AnnouncementSection';
 import TagsSection from '../TagsSection/TagsSection';
 import HomePage from '../HomePage/HomePage';
 import ReelsSection from '../../../ExtraSection/ReelsSection';
+import ReviewsPage from '../../../ExtraSection/ReviewsPage';
 
 
 
@@ -19,7 +20,9 @@ const Home = () => {
             <TagsSection/>
             <AnnouncementSection />
             <HomePage />
-            <ReelsSection/>
+           
+            <ReelsSection />
+            <ReviewsPage/>
            
            
           
