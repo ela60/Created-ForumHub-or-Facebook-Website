@@ -28,6 +28,7 @@ import AdminProfile from "../components/Admin/AdminProfile";
 import AnnouncementForm from "../assets/dashboard/AnnouncementForm/AnnouncementForm";
 import CommentsPage from "../pages/CommentsPage/CommentsPage";
 import ReportedCommentsPage from "../Layout/DashboardLayout/ReportedCommentsPage/ReportedCommentsPage";
+import MoreInfo from "../ExtraSection/MoreInfo";
 // import AdminProfile from "../components/Admin/AdminProfile";
 
 
@@ -82,6 +83,12 @@ import ReportedCommentsPage from "../Layout/DashboardLayout/ReportedCommentsPage
               path: '/membership',
               element: <PrivateRoute>
                 <MembershipPage/>
+              </PrivateRoute>
+            },
+            {
+              path: '/moreInfo',
+              element: <PrivateRoute>
+                <MoreInfo/>
               </PrivateRoute>
             }
 
