@@ -43,7 +43,7 @@ const ExploreTopics = () => {
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">{topic.name}</h3>
             <p className="text-gray-500 mb-4">{topic.description}</p>
-            <a href={topic.link} className="text-blue-500 hover:underline inline-block">Explore</a>
+            {/* <a href={topic.link} className="text-blue-500 hover:underline inline-block">Explore</a> */}
           </div>
         ))}
       </div>

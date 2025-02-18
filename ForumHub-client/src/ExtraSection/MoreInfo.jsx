@@ -16,7 +16,7 @@ const MoreInfo = () => {
       <h1 className="text-4xl font-bold text-yellow-400 mb-4">More Info</h1>
       <p className="text-lg text-gray-300 max-w-3xl text-center">
         Welcome to <span className="text-yellow-300 font-semibold">FacebookUI</span> or{" "}
-        <span className="text-yellow-300 font-semibold">FromHub</span>! 
+        <span className="text-yellow-300 font-semibold">ForumHub</span>! 
         Our platform is designed to provide users with an intuitive and engaging social experience. 
         Whether you're looking for the latest discussions, polls, or trending topics, we've got you covered!
       </p>
