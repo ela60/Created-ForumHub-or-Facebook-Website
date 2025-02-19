@@ -7,6 +7,8 @@ import TagsSection from '../TagsSection/TagsSection';
 import HomePage from '../HomePage/HomePage';
 import ReelsSection from '../../../ExtraSection/ReelsSection';
 import ReviewsPage from '../../../ExtraSection/ReviewsPage';
+import AboutUs from '../../../ExtraSection/AboutUs';
+import AboutUsFacebookStyle from '../../../ExtraSection/AboutUsFacebookStyle';
 
 
 
@@ -22,7 +24,9 @@ const Home = () => {
             <HomePage />
            
             <ReelsSection />
-            <ReviewsPage/>
+            <ReviewsPage />
+            <AboutUs />
+            <AboutUsFacebookStyle/>
            
            
           
